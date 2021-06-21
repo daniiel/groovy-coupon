@@ -1,0 +1,15 @@
+{
+  "content": {
+    "discount_volume": [
+      {
+        "quantity": 2,
+        "item_id": "MLB1772009286",
+        "total_amount": 2010,
+        "variation": null
+      }
+    ]
+  },
+  "status": 200,
+  "isOk": true,
+  "exception": null
+}

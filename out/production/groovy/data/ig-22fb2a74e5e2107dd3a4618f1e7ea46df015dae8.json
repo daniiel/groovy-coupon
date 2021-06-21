@@ -1,0 +1,15 @@
+{
+  "content": {
+    "discount_volume": [
+      {
+        "quantity": 13,
+        "item_id": "MLB1782638242",
+        "total_amount": 650,
+        "variation": null
+      }
+    ]
+  },
+  "status": 200,
+  "isOk": true,
+  "exception": null
+}

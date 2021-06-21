@@ -1,0 +1,341 @@
+{
+  "acquirer": null,
+  "acquirer_reconciliation": [
+
+  ],
+  "additional_info": {
+    "available_balance": null,
+    "ip_address": "181.61.204.157",
+    "nsu_processadora": null,
+    "poi_id": null,
+    "tracking_id": "platform:v1-blacklabel,so:ALL,type:N/A,security:none"
+  },
+  "api_version": "2",
+  "application_id": 4152119344514024,
+  "authorization_code": null,
+  "available_actions": [
+
+  ],
+  "binary_mode": false,
+  "brand_id": null,
+  "call_for_authorize_id": null,
+  "captured": true,
+  "card": {
+
+  },
+  "charges_details": [
+    {
+      "accounts": {
+        "from": "ml",
+        "to": "payer"
+      },
+      "amounts": {
+        "original": 15,
+        "refunded": 15
+      },
+      "client_id": 0,
+      "date_created": "2021-02-25T16:11:40.000-04:00",
+      "id": "13820782718-001",
+      "last_updated": "2021-02-25T16:11:40.000-04:00",
+      "metadata": {
+        "campaign_id": 1424710331233252,
+        "coupon_id": 409345177,
+        "item_id": "MLB1772009286",
+        "meli_campaign": "P-MLB283016",
+        "variation": null
+      },
+      "name": "coupon_rebate"
+    },
+    {
+      "accounts": {
+        "from": "ml",
+        "to": "payer"
+      },
+      "amounts": {
+        "original": 3.54,
+        "refunded": 3.54
+      },
+      "client_id": 0,
+      "date_created": "2021-02-25T16:11:40.000-04:00",
+      "id": "13820782718-002",
+      "last_updated": "2021-02-25T16:11:40.000-04:00",
+      "metadata": {
+        "campaign_id": 1165580767025477,
+        "coupon_id": 409345181,
+        "items_group": "e8d65ec318a8019654adaf61652e798c2186af98",
+        "meli_campaign": "P-MLB75005"
+      },
+      "name": "coupon_volume"
+    },
+    {
+      "accounts": {
+        "from": "ml",
+        "to": "payer"
+      },
+      "amounts": {
+        "original": 97.5,
+        "refunded": 97.5
+      },
+      "client_id": 0,
+      "date_created": "2021-02-25T16:11:40.000-04:00",
+      "id": "13820782718-003",
+      "last_updated": "2021-02-25T16:11:40.000-04:00",
+      "metadata": {
+        "campaign_id": 7648377721313116,
+        "coupon_id": 409345183,
+        "items_group": "22fb2a74e5e2107dd3a4618f1e7ea46df015dae8",
+        "meli_campaign": "P-MLB75005"
+      },
+      "name": "coupon_volume"
+    }
+  ],
+  "client_id": "4152119344514024",
+  "collector": {
+    "email": "test_user_43233050@testuser.com",
+    "first_name": "Splitter",
+    "id": 720439648,
+    "identification": {
+      "number": null,
+      "type": null
+    },
+    "last_name": "93cce0ec86",
+    "operator_id": null,
+    "phone": {
+      "area_code": null,
+      "extension": null,
+      "number": null
+    }
+  },
+  "collector_id": 720439648,
+  "collector_tags": [
+
+  ],
+  "contingencies": {
+    "list": [
+
+    ],
+    "status": "none"
+  },
+  "corporation_id": null,
+  "counter_currency": null,
+  "coupon_amount": 116.04,
+  "coupon_id": null,
+  "currency_id": "BRL",
+  "date_approved": "2021-02-25T16:11:40.000-04:00",
+  "date_created": "2021-02-25T16:11:40.000-04:00",
+  "date_last_updated": "2021-02-26T14:43:18.000-04:00",
+  "date_of_expiration": null,
+  "deduction_schema": null,
+  "description": "Fio Dental Colgate Total 50m + 4 produtos",
+  "differential_pricing_id": null,
+  "external_reference": "1000002000389615",
+  "fee_details": [
+
+  ],
+  "financing_type": null,
+  "id": 13820782718,
+  "installments": 1,
+  "integrator_id": null,
+  "internal_metadata": {
+    "rule_engine": {
+      "valid_promise": false,
+      "with_promise": false,
+      "rules": [
+        {
+          "rule_id": 21000143968,
+          "rule_set": "financing_fee_collector"
+        },
+        {
+          "rule_id": 21000002814,
+          "rule_set": "processing_fee_and_release"
+        }
+      ]
+    },
+    "splitter_id": "346347674",
+    "request_uuid": "527ecc84-40df-4d20-a9b8-edd023650e7a",
+    "internal_risk_analysis": "by_risk",
+    "type": "inbound_payment"
+  },
+  "is_test": true,
+  "issuer_id": null,
+  "live_mode": true,
+  "marketplace": "MELI",
+  "marketplace_owner": null,
+  "merchant_account_id": null,
+  "merchant_number": null,
+  "metadata": {
+    "device_id": "6030465a08813b001980f5dd",
+    "payments_group_timestamp": "2021-02-25T20:11:37Z",
+    "payments_group_size": 1,
+    "payments_group_uuid": "a7c1df0f-2a3e-4531-85e2-f1573117cc0b"
+  },
+  "money_release_date": "2021-02-25T16:11:45.000-04:00",
+  "money_release_days": null,
+  "money_release_schema": null,
+  "notification_url": null,
+  "operation_type": "regular_payment",
+  "order": {
+    "id": "1000002000389615",
+    "type": "mercadolibre"
+  },
+  "payer": {
+    "email": "daniel.buitrago+701980382@mercadolibre.com.co",
+    "entity_type": null,
+    "first_name": "Test",
+    "id": "701980382",
+    "identification": {
+      "number": "15635614680",
+      "type": "CPF"
+    },
+    "last_name": "Test",
+    "operator_id": null,
+    "phone": {
+      "area_code": "01",
+      "extension": null,
+      "number": "1111-1111"
+    },
+    "type": "registered"
+  },
+  "payer_id": 701980382,
+  "payer_tags": [
+
+  ],
+  "payment_method_id": "account_money",
+  "payment_type_id": "account_money",
+  "platform_id": null,
+  "point_of_interaction": {
+
+  },
+  "pos_id": null,
+  "processing_mode": "aggregator",
+  "product_id": "BDVDDFP2LE1G01LPJQEG",
+  "profile_id": null,
+  "refunds": [
+    {
+      "adjustment_amount": 0,
+      "amount": 1005,
+      "collector_movement_id": 49556164584,
+      "counter_currency": null,
+      "date_created": "2021-02-26T14:17:28.000-04:00",
+      "external_refund_id": null,
+      "gtw_refund_id": null,
+      "id": 844311308,
+      "metadata": {
+
+      },
+      "payer_movement_id": 49556164580,
+      "payment_id": 13820782718,
+      "reason": null,
+      "refund_mode": "standard",
+      "reserve_id": "1571436579",
+      "source": {
+        "id": null,
+        "name": null,
+        "type": "admin"
+      },
+      "status": "approved",
+      "unique_sequence_number": null
+    },
+    {
+      "adjustment_amount": 0,
+      "amount": 665.85,
+      "collector_movement_id": 49557580669,
+      "counter_currency": null,
+      "date_created": "2021-02-26T14:33:13.000-04:00",
+      "external_refund_id": null,
+      "gtw_refund_id": null,
+      "id": 844318390,
+      "metadata": {
+
+      },
+      "payer_movement_id": 49557580665,
+      "payment_id": 13820782718,
+      "reason": null,
+      "refund_mode": "standard",
+      "reserve_id": "1571513217",
+      "source": {
+        "id": null,
+        "name": null,
+        "type": "admin"
+      },
+      "status": "approved",
+      "unique_sequence_number": null
+    },
+    {
+      "adjustment_amount": 0,
+      "amount": 7.81,
+      "collector_movement_id": 49533736510,
+      "counter_currency": null,
+      "date_created": "2021-02-26T10:19:46.000-04:00",
+      "external_refund_id": null,
+      "gtw_refund_id": null,
+      "id": 844200039,
+      "metadata": {
+
+      },
+      "payer_movement_id": 49533736506,
+      "payment_id": 13820782718,
+      "reason": null,
+      "refund_mode": "standard",
+      "reserve_id": "1569297731",
+      "source": {
+        "id": null,
+        "name": null,
+        "type": "admin"
+      },
+      "status": "approved",
+      "unique_sequence_number": null
+    },
+    {
+      "adjustment_amount": 0,
+      "amount": 560,
+      "collector_movement_id": 49558438746,
+      "counter_currency": null,
+      "date_created": "2021-02-26T14:43:05.000-04:00",
+      "external_refund_id": null,
+      "gtw_refund_id": null,
+      "id": 844321476,
+      "metadata": {
+
+      },
+      "payer_movement_id": 49558438745,
+      "payment_id": 13820782718,
+      "reason": null,
+      "refund_mode": "standard",
+      "reserve_id": "1571553765",
+      "source": {
+        "id": null,
+        "name": null,
+        "type": "admin"
+      },
+      "status": "approved",
+      "unique_sequence_number": null
+    }
+  ],
+  "reserve_id": "1566733805",
+  "risk_execution_id": 437135028138,
+  "shipping_amount": 0,
+  "site_id": "MLB",
+  "splitter_id": 346347674,
+  "sponsor_id": null,
+  "statement_descriptor": null,
+  "status": "refunded",
+  "status_detail": "by_admin",
+  "store_id": null,
+  "taxes_amount": 0,
+  "transaction_amount": 2238.66,
+  "transaction_amount_refunded": 2238.66,
+  "transaction_details": {
+    "acquirer_reference": null,
+    "external_resource_url": null,
+    "financial_institution": null,
+    "installment_amount": 0,
+    "net_received_amount": 2238.66,
+    "overpaid_amount": 0,
+    "payable_deferral_period": null,
+    "payment_method_reference_id": null,
+    "total_paid_amount": 2122.62
+  },
+  "transaction_id": null,
+  "version": 9
+}

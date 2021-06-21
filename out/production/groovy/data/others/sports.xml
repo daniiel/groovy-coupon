@@ -1,0 +1,14 @@
+<sports>
+    <sport id="1">
+        <name>baseball</name>
+    </sport>
+    <sport id="2">
+        <name>basketball</name>
+    </sport>
+    <sport id="3">
+        <name>football</name>
+    </sport>
+    <sport id="4">
+        <name>hockey</name>
+    </sport>
+</sports>

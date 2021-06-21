@@ -1,0 +1,21 @@
+{
+  "content":{
+    "discount_volume": [
+      {
+        "quantity": 1,
+        "item_id": "MLB1693619644",
+        "total_amount": 7.81,
+        "variation": null
+      },
+      {
+        "quantity": 1,
+        "item_id": "MLB1782793659",
+        "total_amount": 15.85,
+        "variation": null
+      }
+    ]
+  },
+  "status": 200,
+  "isOk": true,
+  "exception": null
+}
